@@ -1,4 +1,5 @@
 import Header from "./components/Header"
+import Main from "./main"
 
 /**
  * Challenge: Build the Header component in a separate file
@@ -9,6 +10,7 @@ export default function App() {
   return (
       <>
         <Header/>
+        <Main/>
       </>
   )
 }

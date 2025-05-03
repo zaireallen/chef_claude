@@ -1,10 +1,11 @@
-export default function Header (){
+// import chefClaudeLogo from "./images/chef-claude-icon.png"
+
+export default function Header() {
     return (
         <header>
-            <nav className="nav content">
-                {/* <img src="./images/chef-claude-icon.png" /> */}
-                <h1>Chef Claude</h1>
-            </nav>
+            {/* <img src={chefClaudeLogo}/> */}
+            <h1>Chef Claude</h1>
         </header>
+        
     )
 }
